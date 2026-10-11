@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "13af41892f0080c9",
+        "id": "84b8026249c28150",
         "type": "tabs",
         "children": [
           {
-            "id": "8cf1d9f2dc2dfdfa",
+            "id": "8c847ff5ef1ac36b",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/app.json",
-                "bFile": ".obsidian/app.json",
-                "aRef": ""
+                "file": "Security/Certificates.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: app.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Certificates"
             }
           }
         ]
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "ea87d06164cd8363",
@@ -99,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Security/Certificates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,13 +179,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "a9fc1c89f2e0e93d",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-agent-chat-view",
+              "state": {},
+              "icon": "copilot-agent",
+              "title": "Copilot Agent"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 403.6328125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,12 +207,47 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "copilot:Open Copilot Agent Chat": false
     }
   },
-  "active": "8cf1d9f2dc2dfdfa",
+  "active": "8c847ff5ef1ac36b",
   "lastOpenFiles": [
-    "create a link.md",
-    "Welcome.md"
+    "Security/ECDHE and HKDF.md",
+    "Security/HTTPS Connection End-to-End (TLS 1.3).md",
+    "Security/TLS and mTLS.md",
+    "Security/Certificates.md",
+    "Excalidraw/HTTPS Connection TLS 1.3.excalidraw.md",
+    "Excalidraw/Symmetric vs Asymmetric Keys.excalidraw.md",
+    "Excalidraw/Certificate Issuance Flow.excalidraw.md",
+    "Excalidraw/ECDHE and HKDF.excalidraw.md",
+    "Excalidraw/TLS and mTLS 2026-10-11 04.37.52.excalidraw.md",
+    "Excalidraw/Certificate Chain of Trust.excalidraw.md",
+    "Excalidraw/TLS Handshake.excalidraw.md",
+    "copilot/copilot-conversations/agent__Make_notes_about_Use_of_TLS,_Certificate,_Symmetric_and_Asymmetric@20261011_052139.md",
+    "copilot/copilot-conversations",
+    "copilot/skills/obsidian-cli/SKILL.md",
+    "copilot/skills/obsidian-cli/LICENSE",
+    "copilot/skills/obsidian-cli",
+    "copilot/skills/json-canvas/SKILL.md",
+    "copilot/skills/json-canvas/LICENSE",
+    "copilot/skills/json-canvas/references/EXAMPLES.md",
+    "copilot/skills/json-canvas/references",
+    "copilot/skills/json-canvas",
+    "copilot/skills/obsidian-bases/SKILL.md",
+    "copilot/skills/obsidian-bases/LICENSE",
+    "copilot/skills/obsidian-bases/references/EXAMPLES.md",
+    "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md",
+    "copilot/skills/obsidian-bases/references",
+    "copilot/skills/obsidian-bases",
+    "copilot/skills/obsidian-markdown/SKILL.md",
+    "copilot/skills/obsidian-markdown/LICENSE",
+    "copilot/skills/obsidian-markdown/references/PROPERTIES.md",
+    "copilot/skills/obsidian-markdown/references/EMBEDS.md",
+    "copilot/skills/obsidian-markdown/references/CALLOUTS.md",
+    "copilot/skills/openartifacts-publish/SKILL.md",
+    "copilot/skills/openartifacts-publish/themes/research-memo.md",
+    "copilot/skills/copilot-fetch-x/SKILL.md",
+    "copilot/skills/copilot-youtube-transcript/SKILL.md"
   ]
 }
